@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.buffalo.cse.cse486586.groupmessenger2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="19" />
+9-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+11-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:7:5-77
+11-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:7:22-74
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:8:5-75
+12-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:8:22-72
+13    <uses-permission android:name="android.permission.READ_SMS" />
+13-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:9:5-67
+13-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:9:22-64
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:12:5-67
+14-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:12:22-64
+15
+16    <application
+16-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:13:5-31:19
+17        android:allowBackup="true"
+17-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:14:9-35
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:15:9-45
+20        android:label="@string/app_name"
+20-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:16:9-41
+21        android:theme="@style/AppTheme" >
+21-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:17:9-40
+22        <activity
+22-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:20:9-28:20
+23            android:name="edu.buffalo.cse.cse486586.groupmessenger2.GroupMessengerActivity"
+23-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:21:13-92
+24            android:label="@string/app_name" >
+24-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:22:13-45
+25            <intent-filter>
+25-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:23:13-27:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:24:17-69
+26-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:24:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:26:17-77
+28-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:26:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:29:9-30:88
+33            android:name="edu.buffalo.cse.cse486586.groupmessenger2.GroupMessengerProvider"
+33-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:29:19-98
+34            android:authorities="edu.buffalo.cse.cse486586.groupmessenger2.provider" />
+34-->/home/revathy/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:30:13-85
+35    </application>
+36
+37</manifest>
